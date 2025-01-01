@@ -254,31 +254,31 @@ where **yourusername** = your username on the MAC and the Path to the folder, if
 `mv env .env` and hit **Enter**
 env File should now vanish in Finder *(You can show it in Finder by pressing* **Command + Shift + .** *)*
 
-4.2.c - For NOALBS to respond to our Chat commands we need to give access to a Twitch Account. Once you logged in with your preferred Account in Twitch click on this **[Link](https://twitchapps.com/tmi)**, then hit **Connect** and copy the **oauth:xxxxxxx** Code  
+4.2.d - For NOALBS to respond to our Chat commands we need to give access to a Twitch Account. Once you logged in with your preferred Account in Twitch, click on this **[Link](https://b3ck.com/twitch/oauth)**, then hit **Authorize with Twitch** and copy the whole Code from the website
 
-<img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/6eac3092-a208-438e-ac08-c68faf69151c" height="300">
-<img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/c52f6156-e52f-4ea7-a115-36d488648555" height="130">
+<img src="https://github.com/user-attachments/assets/d668b651-5f7e-45b3-9e1a-e26eb5174b19" height="300">
+<img src="https://github.com/user-attachments/assets/44ca3f4b-4ea8-47a8-868e-180fc5c62ba7" height="130">
 
-4.2.d - **Open** the **.env** File with a Text-Editor
- - Username of the used Account
- - replace the *oauth:YOUR_OAUTH_HERE* with your copied data
- - save and close the file
+4.2.e - **Open** the **.env** File with a Text-Editor
+ - replace everything with your copied data
 
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/33dabd80-1a70-4ac1-8451-b942200767b0" height="40">
 
-4.2.e - Download the File and replace it with your **config.json**  
+ - save and close the file
+
+4.2.f - Download the File and replace it with your **config.json**  
 [config.json](config.json)  
-4.2.f - **Open** the **config.json** File with a Text-Editor  
+4.2.g - **Open** the **config.json** File with a Text-Editor  
  - replace all 3x of *REPLACE_STREAMER_NAME* with your Twitch Account Name
 
-4.2.g - open the Open the **[Belabox Cloud](https://cloud.belabox.net/#relays)** Page and go to **SRT(LA) relays**  
+4.2.h - open the Open the **[Belabox Cloud](https://cloud.belabox.net/#relays)** Page and go to **SRT(LA) relays**  
  - Scroll down to **NOALBSv2 configuration**
  - replace *REPLACE_BELLABOX_URL* with the URL from the Belabox Page
  - replace *REPLACE_BELLABOX_INGEST_KEY* with the last Part of the URL
 
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/fe194e73-c223-4327-9680-af1b570869b1" height="350">
 
-4.2.h - Go back to OBS into the Websocket Settings and click on **Show Connect Info**. 
+4.2.i - Go back to OBS into the Websocket Settings and click on **Show Connect Info**. 
  - Copy the **Server Password**
  - replace *REPLACE_OBS_WEBSOCKET_PASSWORD* with the copied data
 
@@ -286,10 +286,10 @@ env File should now vanish in Finder *(You can show it in Finder by pressing* **
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/7f04f75c-0611-43d6-8831-5fc8487981db" height="300">
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/f16885ce-8c51-4bb4-92fa-b0e7311f3b41" height="100">
 
-4.2.i - Save and close the file. *Detailed Infos [NOALBS Github](https://github.com/NOALBS/nginx-obs-automatic-low-bitrate-switching)*  
-4.2.j - Start the **noalbs** programm. *There should be an error starting it the first time saying that the developer is not verified, just hit ok*  
-4.2.k - Make sure .sh files are **always opened** with the Terminal app. To do this Control Click the .sh File > Open with > Other. In the Menu by **Enable** choose **All Aplications** and check **Always open With** below. Then choose **Terminal** on the left side and hit **Open**
-4.2.l - Always run NOALBS over the launch.sh File. Check if it shows any Errors. Errors with Chat -> check .evn file. Errors with OBS -> check OBS Websocket or Websocket Settings in config.json
+4.2.j - Save and close the file. *Detailed Infos [NOALBS Github](https://github.com/NOALBS/nginx-obs-automatic-low-bitrate-switching)*  
+4.2.k - Start the **noalbs** programm. *There should be an error starting it the first time saying that the developer is not verified, just hit ok*  
+4.2.l - Make sure .sh files are **always opened** with the Terminal app. To do this Control Click the .sh File > Open with > Other. In the Menu by **Enable** choose **All Aplications** and check **Always open With** below. Then choose **Terminal** on the left side and hit **Open**
+4.2.m - Always run NOALBS over the launch.sh File. Check if it shows any Errors. Errors with Chat -> check .evn file. Errors with OBS -> check OBS Websocket or Websocket Settings in config.json
 
 > [!NOTE]  
 > Opening the launch.sh in the Terminal app will always start up NOALBS from within the directory it is in.
