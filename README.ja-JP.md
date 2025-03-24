@@ -1,16 +1,16 @@
 # General Info
 
-このガイドでは**安くて簡単な**ソリューションについて説明します。
+This Guide describes a **Cheap and Easy** Solution for
 
 - better **IRL**-Streaming
-- ストリーミングフォンとして **Android**
+- **Android** as Streaming Phone
 - **Windows** as Home PC
 
 > [!NOTE]\
-> 完全に自由な"メソッドがあります。 しかし、彼らはより多くの技術的な専門知識を必要とし、誤って設定されている場合は、ホーム PC のセキュリティリスクになる可能性があります。
+> There are completely "free" methods, but they need more technical expertise and if wrongly configured could be a security risk for your Home PC.
 > With this Method you don't open up purposely any holes in your Security. _(No fixed IP | No PF | No FW Changes)_
 
-> [!重要]
+> [!IMPORTANT]
 >
 > <details><summary>You can use the 3 Lines at the top right to jump to any Section of the Guide</summary>
 > <img src="https://github.com/Naginreed/irl-cae-setup-ioS/assets/71943093/ddcfa25e-e806-48a7-9882-60fdc8794947">
@@ -29,20 +29,20 @@
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/def6c3de-2990-44bc-a914-9ec119a27af9">
 
 > [!NOTE]\
-> 最初はこれはかなり複雑に見えますが、私たちは写真\*(利用可能な場合)\*全体のセットアッププロセスをトラフに進みます。
+> At first this looks pretty complicated, but we will go Step-by-Step with Pictures _(when available)_ trough the whole Setup Process.
 
-**前向き**
+**Positives**
 
 - 👍 can be used with a single Internet connection from Phone
-- 👍 携帯電話からの接続に失敗すると、視聴者はビデオ/クリップ (1 x ストリーム スタートと 1 x VOD) を表示します。
+- 👍 when connection from Phone is failing, the Viewer will still see Videos/Clips (1x Stream Start and 1x VOD)
 - 👍 a second internet can be added to make the Phone Connection more reliable
 - 👍 when switching from WiFi to Mobile and back stream is not going offline
 
-**マイナス**
+**Negatives**
 
-- 👎 リレーサーバーの追加月額費用 ($10 USD)
-- 👎 毎月の追加コスト（オプション）
-- 👎 最初のセットアップに時間がかかります
+- 👎 Additional monthly cost for Relay Server ($10 USD)
+- 👎 Additional monthly cost for 2nd Internet (Optional)
+- 👎 Takes some time for first Setup
 
 ---
 
@@ -51,23 +51,23 @@
 > [!NOTE]\
 > If you have multiple phones, use the strongest/newest one as Streaming Phone
 
-1.a - Google Play ストアから **[IRL Pro](https://play.google.com/store/apps/details?id=app.irlpro.android)** をインストールします
+1.a - Install the **[IRL Pro](https://play.google.com/store/apps/details?id=app.irlpro.android)** from the Google Play Store
 
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/a762e027-b75a-4d72-9667-12f7b032b98c" height="400">
 
 ---
 
-# 2 - SRT/SRTLAリレーformat@@0
+# 2 - SRT/SRTLA Relay
 
 > [!NOTE]\
 > This Server takes the Two SRTLA Streams and combines them into one SRT Stream as seen on [Map](#map)
 
-> [!重要]\
-> このサービスは$10の費用がかかります。
+> [!IMPORTANT]\
+> This Service costs $10 USD.
 
 2.a - Create an Account with [Github](https://github.com/signup) _(If you already have one skip to Login)_
 
-- メールアドレスと [Login](https://github.com/login) を確認する必要があります。
+- You then need to Verify your E-Mail Address and [Login](https://github.com/login)
 
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/bafd6a15-7ec2-4f3e-8a1f-7737e41d9a8f" height="600">
 
