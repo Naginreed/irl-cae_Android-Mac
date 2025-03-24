@@ -1,3 +1,0 @@
-files:
-  - source: '*.md'
-    translation: /%file_name%.%locale%.%file_extension%
