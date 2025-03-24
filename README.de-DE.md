@@ -1,16 +1,16 @@
 # General Info
 
-This Guide describes a **Cheap and Easy** Solution for
+Diese Anleitung beschreibt eine **Billige und einfach** Lösung für
 
 - better **IRL**-Streaming
-- **Android** as Streaming Phone
-- **Windows** as Home PC
+- **Android** als Streaming Phone
+- **Windows** als Home PC
 
-> [!NOTE]\
-> There are completely "free" methods, but they need more technical expertise and if wrongly configured could be a security risk for your Home PC.
+> [!HINWEIS]\
+> Es gibt völlig "kostenlose" Methoden, aber sie benötigen mehr technisches Fachwissen und wenn falsch konfiguriert könnte ein Sicherheitsrisiko für Ihren Heimrechner sein.
 > With this Method you don't open up purposely any holes in your Security. _(No fixed IP | No PF | No FW Changes)_
 
-> [!IMPORTANT]
+> [!WICHTIG]
 >
 > <details><summary>You can use the 3 Lines at the top right to jump to any Section of the Guide</summary>
 > <img src="https://github.com/Naginreed/irl-cae-setup-ioS/assets/71943093/ddcfa25e-e806-48a7-9882-60fdc8794947">
@@ -28,21 +28,21 @@ This Guide describes a **Cheap and Easy** Solution for
 
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/def6c3de-2990-44bc-a914-9ec119a27af9">
 
-> [!NOTE]\
-> At first this looks pretty complicated, but we will go Step-by-Step with Pictures _(when available)_ trough the whole Setup Process.
+> [!HINWEIS]\
+> Das sieht zunächst ziemlich kompliziert aus, aber wir werden Schritt für Schritt mit Bildern _(wenn verfügbar)_ durch den gesamten Setup-Prozess gehen.
 
 **Positives**
 
 - 👍 can be used with a single Internet connection from Phone
-- 👍 when connection from Phone is failing, the Viewer will still see Videos/Clips (1x Stream Start and 1x VOD)
+- 👍 Wenn die Verbindung vom Telefon fehlschlägt, sieht der Viewer weiterhin Videos/Clips (1x Stream Start und 1x VOD)
 - 👍 a second internet can be added to make the Phone Connection more reliable
 - 👍 when switching from WiFi to Mobile and back stream is not going offline
 
-**Negatives**
+**Negativs**
 
-- 👎 Additional monthly cost for Relay Server ($10 USD)
-- 👎 Additional monthly cost for 2nd Internet (Optional)
-- 👎 Takes some time for first Setup
+- 👎 Zusätzliche monatliche Kosten für Relais Server ($10 USD)
+- 👎 Zusätzliche monatliche Kosten für das 2. Internet (Optional)
+- 👎 Startet einige Zeit für das erste Setup
 
 ---
 
@@ -51,23 +51,23 @@ This Guide describes a **Cheap and Easy** Solution for
 > [!NOTE]\
 > If you have multiple phones, use the strongest/newest one as Streaming Phone
 
-1.a - Install the **[IRL Pro](https://play.google.com/store/apps/details?id=app.irlpro.android)** from the Google Play Store
+1.a - Installiere das **[IRL Pro](https://play.google.com/store/apps/details?id=app.irlpro.android)** aus dem Google Play Store
 
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/a762e027-b75a-4d72-9667-12f7b032b98c" height="400">
 
 ---
 
-# 2 - SRT/SRTLA Relay
+# 2 - SRT/SRTLA Relais
 
-> [!NOTE]\
-> This Server takes the Two SRTLA Streams and combines them into one SRT Stream as seen on [Map](#map)
+> [!HINWEIS]\
+> Dieser Server nimmt die zwei SRTLA Streams und kombiniert sie zu einem SRT Stream wie auf [Map](#map)
 
-> [!IMPORTANT]\
-> This Service costs $10 USD.
+> [!WICHTIG]\
+> Dieser Service kostet $10 USD.
 
 2.a - Create an Account with [Github](https://github.com/signup) _(If you already have one skip to Login)_
 
-- You then need to Verify your E-Mail Address and [Login](https://github.com/login)
+- Du musst dann deine E-Mail-Adresse und [Login]überprüfen (https://github.com/login)
 
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/bafd6a15-7ec2-4f3e-8a1f-7737e41d9a8f" height="600">
 
